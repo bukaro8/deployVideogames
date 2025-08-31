@@ -18,7 +18,7 @@ function App() {
     <div className={style.App}>
       <Navbar trigger={trigger} />
       <Switch>
-        <Route exact path='/' render={() => <LandingPage />} />
+        <Route exact path='/' render={() => <Home />} />
         <Route exact path='/home' render={() => <Home />} />
         <Route
           exact
